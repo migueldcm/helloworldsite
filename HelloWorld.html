@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Miguel's First App</title></head>
+<body>
+    <h1>Hello!</h1>
+<!-- Input field for the user's name -->
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="sayHi()">Greet Me</button>
+
+    <script>
+        function sayHi() {
+            // Get the value from the input field
+            const name = document.getElementById('nameInput').value;
+
+            // Show an alert with the name
+            alert(`Hi ${name}!`);
+        }
+    </script>
+</body>
+</html>
